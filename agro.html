@@ -380,4 +380,22 @@ em{font-style:italic}
     navigator.clipboard.writeText(t).then(function(){b.textContent='Copiado'},function(){var r=document.createRange();r.selectNodeContents($('#f-out'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Texto seleccionado: cópielo'});
   });
 })();
-</script></body></html>
+</script><style>.lsel{margin-left:10px;background:transparent;color:inherit;border:1px solid #c9a556;border-radius:6px;padding:5px 6px;font:inherit;font-size:13px;cursor:pointer}.lsel option{color:#14182b}.goog-te-banner-frame,.skiptranslate iframe,#goog-gt-tt,.goog-te-balloon-frame{display:none!important}body{top:0!important}#gte{display:none}font{background:none!important;box-shadow:none!important}</style>
+<div id="gte"></div>
+<script>
+(function(){
+var L=[["es","Español"],["en","English"],["fr","Français"],["ar","العربية"],["zh-CN","中文"],["ru","Русский"],["pt","Português"]];
+var m=document.cookie.match(/googtrans=\/es\/([^;]+)/),cur=m?m[1]:"es";
+var s=document.createElement("select");s.className="lsel notranslate";s.setAttribute("aria-label","Idioma / Language");s.translate=false;
+L.forEach(function(l){var o=document.createElement("option");o.value=l[0];o.textContent="🌐 "+l[1];if(l[0]===cur)o.selected=true;s.appendChild(o)});
+s.onchange=function(){var v=s.value,d=location.hostname;
+ ["","; domain="+d,"; domain=."+d].forEach(function(x){document.cookie="googtrans=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/"+x});
+ if(v!=="es"){document.cookie="googtrans=/es/"+v+"; path=/";document.cookie="googtrans=/es/"+v+"; path=/; domain=."+d}
+ location.reload()};
+var b=document.querySelector("header.top .btn-gold");if(b)b.insertAdjacentElement("afterend",s);else document.body.prepend(s);
+if(cur==="ar")document.documentElement.dir="rtl";
+if(cur!=="es"){window.gteInit=function(){new google.translate.TranslateElement({pageLanguage:"es",includedLanguages:"en,fr,ar,zh-CN,ru,pt",autoDisplay:false},"gte")};
+ var g=document.createElement("script");g.src="https://translate.google.com/translate_a/element.js?cb=gteInit";document.body.appendChild(g)}
+})();
+</script>
+</body></html>
