@@ -380,14 +380,14 @@ em{font-style:italic}
     navigator.clipboard.writeText(t).then(function(){b.textContent='Copiado'},function(){var r=document.createRange();r.selectNodeContents($('#f-out'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Texto seleccionado: cópielo'});
   });
 })();
-</script><style>.lwrap{display:inline-flex;align-items:center;gap:5px;margin-left:10px}.lglobe{width:22px;height:22px;filter:drop-shadow(0 0 3px rgba(201,165,86,.45))}.lwrap .lsel{margin-left:0;color:#e9cf8a}.lsel{margin-left:10px;background:transparent;color:inherit;border:1px solid #c9a556;border-radius:6px;padding:5px 6px;font:inherit;font-size:13px;cursor:pointer}.lsel option{color:#14182b}.goog-te-banner-frame,.skiptranslate iframe,#goog-gt-tt,.goog-te-balloon-frame{display:none!important}body{top:0!important}#gte{display:none}font{background:none!important;box-shadow:none!important}</style>
+</script><style>.lwrap{display:inline-flex;align-items:center;gap:4px;margin-left:8px;flex-shrink:0}.lglobe{width:22px;height:22px;filter:drop-shadow(0 0 3px rgba(201,165,86,.45))}.lwrap .lsel{margin-left:0;color:#e9cf8a}.lsel{margin-left:10px;padding:4px 2px!important;background:transparent;color:inherit;border:1px solid #c9a556;border-radius:6px;padding:5px 6px;font:inherit;font-size:13px;cursor:pointer}.lsel option{color:#14182b}.goog-te-banner-frame,.skiptranslate iframe,#goog-gt-tt,.goog-te-balloon-frame{display:none!important}body{top:0!important}#gte{display:none}font{background:none!important;box-shadow:none!important}</style>
 <div id="gte"></div>
 <script>
 (function(){
-var L=[["es","Español"],["en","English"],["fr","Français"],["ar","العربية"],["zh-CN","中文"],["ru","Русский"],["pt","Português"]];
+var L=[["es","Español","ES"],["en","English","EN"],["fr","Français","FR"],["ar","العربية","AR"],["zh-CN","中文","中文"],["ru","Русский","RU"],["pt","Português","PT"]];
 var m=document.cookie.match(/googtrans=\/es\/([^;]+)/),cur=m?m[1]:"es";
 var s=document.createElement("select");s.className="lsel notranslate";s.setAttribute("aria-label","Idioma / Language");s.translate=false;
-L.forEach(function(l){var o=document.createElement("option");o.value=l[0];o.textContent=l[1];if(l[0]===cur)o.selected=true;s.appendChild(o)});
+L.forEach(function(l){var o=document.createElement("option");o.value=l[0];o.textContent=l[2];o.title=l[1];if(l[0]===cur)o.selected=true;s.appendChild(o)});
 s.onchange=function(){var v=s.value,d=location.hostname;
  ["","; domain="+d,"; domain=."+d].forEach(function(x){document.cookie="googtrans=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/"+x});
  if(v!=="es"){document.cookie="googtrans=/es/"+v+"; path=/";document.cookie="googtrans=/es/"+v+"; path=/; domain=."+d}
