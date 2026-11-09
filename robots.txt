@@ -16,4 +16,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://agentejhavix-devaa.github.io/sahel-capital/sitemap.xml
+Sitemap: https://attenciona.com/sahel-capital/sitemap.xml
