@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Invertir en energía fotovoltaica en Mauritania | SAHEL CAPITAL Energía</title><meta name="description" content="Proyectos solares con y sin baterías, eólica, gas y electrificación rural en Mauritania bajo APP. Para promotores, EPC y financiadores."><link rel="canonical" href="https://agentejhavix-devaa.github.io/sahel-capital/energia.html"><link rel="alternate" hreflang="es" href="https://agentejhavix-devaa.github.io/sahel-capital/energia.html"><link rel="alternate" hreflang="x-default" href="https://agentejhavix-devaa.github.io/sahel-capital/energia.html"><meta property="og:type" content="website"><meta property="og:site_name" content="SAHEL CAPITAL"><meta property="og:title" content="Invertir en energía fotovoltaica en Mauritania | SAHEL CAPITAL Energía"><meta property="og:description" content="Proyectos solares con y sin baterías, eólica, gas y electrificación rural en Mauritania bajo APP. Para promotores, EPC y financiadores."><meta property="og:url" content="https://agentejhavix-devaa.github.io/sahel-capital/energia.html"><meta property="og:image" content="https://agentejhavix-devaa.github.io/sahel-capital/img/og.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#04060f"><link rel="icon" href="img/mark.png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"><style>/* Layout: deep-green bands (header, hero, method, footer) carry the brand; between them, quiet paper surfaces hold ledgers, spec sheets and the map of Mauritania. */
+:root{
+  color-scheme:dark;
+  --bg:#070a18; --surface:#0e1429; --alt:#0a0e20; --ink:#f2efe4; --muted:#a3a8bf; --line:#212a4d;
+  --green:#4c5fa3; --gold:#d8b871; --accent:#e6cd92;
+  --band:#04060f; --band-2:#111833; --on-band:#f2efe4; --on-band-muted:#a3a8bf; --band-line:#212a4d; --band-gold:#d8b871;
+  --ok:#6fcfa5; --warn:#e6b85c; --open:#9cc0ea; --bad:#ff8a80;
+  --au:linear-gradient(100deg,#b48f3f 0%,#f3dca0 45%,#c9a556 100%);
+  --f-display:"Spectral","Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --f-body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gut-l:max(20px,env(safe-area-inset-left,0px)); --gut-r:max(20px,env(safe-area-inset-right,0px));
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.62 var(--f-body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--band)}
+img{max-width:100%}
+[hidden]{display:none!important}
+h1,h2,h3,h4{font-family:var(--f-display);font-weight:500;text-wrap:balance;margin:0;line-height:1.1;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--band-gold);outline-offset:3px;border-radius:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:var(--gut-l);padding-right:var(--gut-r)}
+.band{background:var(--band);color:var(--on-band)}
+.eyebrow{font:500 12px/1.3 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.band .eyebrow{color:var(--band-gold)}
+.lede{color:var(--muted);max-width:62ch;font-size:17.5px}
+.band .lede{color:var(--on-band-muted)}
+
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--band);color:var(--on-band);border-bottom:1px solid var(--band-line)}
+.top .wrap{display:flex;align-items:center;gap:22px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand img{height:42px;width:auto;display:block}
+.brand span{display:grid;line-height:1.1}
+.brand b{font:500 19px var(--f-display);letter-spacing:.14em;white-space:nowrap}
+.brand i{font:500 9px var(--f-mono);font-style:normal;letter-spacing:.14em;text-transform:uppercase;color:var(--band-gold)}
+nav.main{display:flex;gap:20px;margin-left:auto;white-space:nowrap;min-width:0}
+nav.main a{font-size:14px;text-decoration:none;color:var(--on-band-muted);padding:6px 0;border-bottom:1px solid transparent}
+nav.main a:hover{color:var(--on-band)}
+nav.main a[aria-current]{color:var(--on-band);border-bottom-color:var(--band-gold)}
+.btn{display:inline-flex;align-items:center;justify-content:center;font:600 15px var(--f-body);padding:13px 22px;border-radius:4px;border:1px solid transparent;cursor:pointer;text-decoration:none}
+.btn.sm{padding:9px 16px;font-size:14px;flex:none}
+.btn-gold{background:var(--au);color:#1c1a10}
+.btn-gold:hover{filter:brightness(1.07)}
+.btn-ghost{border-color:var(--band-line);color:var(--on-band)}
+.btn-ghost:hover{background:var(--band-2)}
+.btn-ink{background:var(--band);color:var(--on-band);border-color:var(--band-line)}
+.btn-line{background:transparent;color:var(--ink);border-color:var(--gold)}
+.btn-line:hover{background:var(--surface)}
+@media (max-width:1080px){
+  .top .wrap{flex-wrap:wrap;row-gap:4px}
+  .brand{margin-right:auto}
+  nav.main{order:3;flex:1 0 100%;margin:0;overflow-x:auto;gap:18px;padding-bottom:2px;scrollbar-width:none}
+  nav.main::-webkit-scrollbar{display:none}
+}
+@media (max-width:420px){.brand i{display:none}}
+
+/* hero */
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:56px;padding-block:64px 72px;align-items:center}
+.hero-copy{display:grid;gap:22px;min-width:0}
+.hero h1{font-size:clamp(38px,5.4vw,66px);font-weight:500;letter-spacing:-.02em;line-height:1.04}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+.hero-art{min-width:0}
+.crumbs{font:400 12px var(--f-mono);color:var(--on-band-muted)}
+.crumbs a{color:var(--on-band-muted)}
+.crumbs.dark,.crumbs.dark a{color:var(--muted)}
+@media (max-width:880px){.hero .wrap{grid-template-columns:minmax(0,1fr);gap:36px;padding-block:44px 52px}}
+
+/* map */
+.mapfig{margin:0}
+.map{display:block;width:100%;height:auto;max-width:520px;margin:0 auto}
+.map .land{fill:var(--mp-land);stroke:var(--mp-stroke);stroke-width:1.2;stroke-linejoin:round}
+.map .grat{stroke:var(--mp-grat);stroke-width:.6;stroke-dasharray:2 4}
+.map .deg,.map .sea{font:400 9px var(--f-mono);fill:var(--mp-mut);letter-spacing:.08em}
+.map .sea{letter-spacing:.22em}
+.map .river{fill:none;stroke:var(--mp-river);stroke-width:1.6}
+.map .rail{fill:none;stroke:var(--mp-mut);stroke-width:1.1;stroke-dasharray:5 3}
+.map .site text{font:500 11.5px var(--f-body);fill:var(--mp-ink)}
+.map .site .s{font:400 9.5px var(--f-mono);fill:var(--mp-mut)}
+.map .site circle{fill:var(--mp-ink)}
+.map .site.cap circle{fill:none;stroke:var(--mp-ink);stroke-width:2}
+.map .site rect{fill:var(--mp-gold)}
+.map .site.dim{opacity:.38}
+.mapfig{--mp-land:#121a3a;--mp-stroke:var(--green);--mp-grat:var(--line);--mp-mut:var(--muted);--mp-ink:var(--ink);--mp-gold:var(--gold);--mp-river:var(--open)}
+.maplegend{display:flex;flex-wrap:wrap;gap:6px 18px;font:400 11px/1.4 var(--f-mono);color:var(--mp-mut);margin-top:12px;justify-content:center}
+.maplegend span{display:inline-flex;align-items:center;gap:6px}
+.lg-city{width:7px;height:7px;border-radius:50%;background:var(--mp-ink)}
+.lg-res{width:7px;height:7px;background:var(--mp-gold);transform:rotate(45deg)}
+.lg-rail{width:16px;border-top:1.5px dashed var(--mp-mut)}
+.mapfig figcaption,.ph figcaption,.diagram figcaption{font:400 12px/1.5 var(--f-mono);color:var(--muted);margin-top:10px}
+.band .mapfig figcaption,.band .ph figcaption{color:var(--on-band-muted)}
+.ph{margin:0}
+.ph img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}
+.hero .ph img{aspect-ratio:5/4;border:1px solid var(--band-line)}
+
+/* audiences */
+.aud{background:var(--surface);border-bottom:1px solid var(--line)}
+.aud .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.audc{display:grid;gap:6px;padding:28px 28px 30px 0;text-decoration:none;border-right:1px solid var(--line);align-content:start}
+.audc+.audc{padding-left:28px}
+.audc:last-child{border-right:0}
+.audc b{font:500 24px/1.15 var(--f-display)}
+.audc>span:last-child{color:var(--muted);font-size:15px}
+.audc:hover b{color:var(--accent);text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
+@media (max-width:820px){.aud .wrap{grid-template-columns:minmax(0,1fr)}.audc,.audc+.audc{padding:22px 0;border-right:0;border-bottom:1px solid var(--line)}.audc:last-child{border-bottom:0}}
+
+/* sections */
+.sec{padding-block:76px}
+.sec.alt{background:var(--alt)}
+.sec.narrow .wrap{max-width:900px}
+.sec-head{display:grid;gap:14px;margin-bottom:36px}
+.sec-head h2{font-size:clamp(30px,4vw,44px)}
+.answer{background:var(--surface);border-bottom:1px solid var(--line)}
+.answer .wrap{padding-block:26px}
+.answer p{max-width:86ch;font-size:17px}
+.answer b{font-family:var(--f-mono);font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-right:8px}
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+.two>div{min-width:0}
+.two.wide-r{grid-template-columns:minmax(0,1fr) minmax(0,1.05fr)}
+@media (max-width:880px){.two,.two.wide-r{grid-template-columns:minmax(0,1fr);gap:32px}}
+.prose{max-width:70ch;display:grid;gap:14px;font-size:17px;margin-bottom:32px}
+.more{margin-top:20px}
+.more a,.dossier a{font-weight:600;text-underline-offset:4px}
+.note{font-size:13.5px;color:var(--muted);margin-top:14px;max-width:78ch}
+
+/* division list */
+.divs{display:grid;border-top:1px solid var(--line)}
+.div{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr) auto 28px;gap:24px;align-items:baseline;padding:22px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.div h3{font-size:25px}
+.div p{color:var(--muted)}
+.div .k{font:500 12px var(--f-mono);color:var(--gold);white-space:nowrap}
+.div .go{font-size:20px;color:var(--accent);transition:transform .15s}
+.div:hover h3{color:var(--accent)}
+.div:hover .go{transform:translateX(4px)}
+@media (max-width:820px){.div{grid-template-columns:minmax(0,1fr) 24px;gap:6px 12px}.div h3{grid-column:1}.div p,.div .k{grid-column:1}.div .go{grid-column:2;grid-row:1}}
+@media (prefers-reduced-motion:reduce){.div .go{transition:none}}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:4px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{padding:14px 18px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+tr:last-child>th,tr:last-child>td{border-bottom:0}
+thead th{font:500 11px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.spec th{width:200px;font:500 12px/1.5 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding-top:17px}
+.ledger .fig{font:500 20px/1.2 var(--f-display);white-space:nowrap;color:var(--accent);font-variant-numeric:tabular-nums}
+.ledger .srcc{font:400 12px/1.5 var(--f-mono);color:var(--muted);white-space:nowrap}
+.prices td{padding:9px 16px}
+td.num,th.num{text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+td small{color:var(--muted);font-family:var(--f-mono)}
+@media (max-width:700px){.spec th{width:120px}.ledger .fig,.ledger .srcc{white-space:normal}th,td{padding:12px}}
+
+/* lines */
+.lines{list-style:none;margin:0;padding:0;display:grid;border-top:1px solid var(--line)}
+.lines li{display:grid;grid-template-columns:170px minmax(0,1fr);gap:18px;padding:15px 0;border-bottom:1px solid var(--line)}
+.lines b{font:500 18px/1.3 var(--f-display)}
+.lines span{color:var(--muted);font-size:15.5px}
+@media (max-width:560px){.lines li{grid-template-columns:minmax(0,1fr);gap:2px}}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.gallery figure{margin:0;position:relative;border-radius:4px;overflow:hidden}
+.gallery img{display:block;width:100%;aspect-ratio:1;object-fit:cover}
+.gallery .wide{grid-column:span 3}.gallery .wide img{aspect-ratio:21/9}
+.gallery figcaption{position:absolute;inset:auto 0 0;padding:24px 10px 8px;font:500 11px var(--f-mono);color:#f1f4ee;background:linear-gradient(transparent,rgba(8,20,17,.85))}
+
+/* opportunities */
+.opps{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.opp{border:1px solid var(--line);border-radius:4px;padding:22px;display:grid;gap:10px;align-content:start;background:var(--surface);min-width:0}
+.opp .meta{display:flex;justify-content:space-between;gap:10px;font:500 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.opp h3{font-size:21px;line-height:1.2}
+.opp p{font-size:14.5px;color:var(--muted)}
+.opp .foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;padding-top:12px;border-top:1px solid var(--line)}
+.opp a{font:600 14px var(--f-body);color:var(--accent);text-underline-offset:3px}
+.status{font:500 12px var(--f-body);display:inline-flex;align-items:center;gap:6px}
+.status::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.s-doc{color:var(--ok)}.s-ori{color:var(--warn)}.s-open{color:var(--open)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px}
+
+/* method */
+.steps{list-style:none;margin:0;padding:0;counter-reset:s;display:grid}
+.steps li{counter-increment:s;display:grid;grid-template-columns:52px minmax(0,1fr);gap:8px;padding:20px 0;border-top:1px solid var(--line)}
+.steps li:last-child{border-bottom:1px solid var(--line)}
+.steps li::before{content:counter(s,decimal-leading-zero);font:500 13px var(--f-mono);color:var(--gold);padding-top:6px}
+.steps h3{font-size:22px;margin-bottom:6px}
+.steps p{color:var(--muted);font-size:15.5px}
+.band .steps li{border-color:var(--band-line)}
+.band .steps li::before{color:var(--band-gold)}
+.band .steps p{color:var(--on-band-muted)}
+.dossier{background:var(--band-2);color:var(--on-band);border:1px solid var(--band-line);border-radius:4px;padding:28px;display:grid;gap:16px;align-content:start}
+.dossier h3{font-size:22px}
+.dossier ul{margin:0;padding:0;list-style:none;display:grid;gap:11px}
+.dossier li{display:grid;grid-template-columns:18px minmax(0,1fr);gap:10px;font-size:15px}
+.dossier li::before{content:"";width:8px;height:8px;margin-top:9px;border:1.5px solid var(--band-gold);transform:rotate(45deg)}
+.dossier p{font-size:13.5px;color:var(--on-band-muted)}
+.dossier.light{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.dossier.light li::before{border-color:var(--gold)}
+.dossier.light p{color:var(--muted)}
+
+/* diagram */
+.diagram{margin:0}
+.diagram svg{width:100%;height:auto;display:block}
+.diagram .bx rect{fill:var(--surface);stroke:var(--line);stroke-width:1.2}
+.diagram .bx .core{fill:var(--band);stroke:var(--band)}
+.diagram .ln path{stroke:var(--gold);stroke-width:1.4;fill:none}
+.diagram .tx text{font:400 11px var(--f-mono);fill:var(--muted)}
+.diagram .tx .t1{font:600 13.5px var(--f-body);fill:var(--ink)}
+.diagram .tx text:nth-child(1),.diagram .tx text:nth-child(2){fill:var(--on-band)}
+
+/* faq */
+.faq{border-top:1px solid var(--line);max-width:900px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{cursor:pointer;list-style:none;padding:20px 40px 20px 0;font:500 21px/1.25 var(--f-display);position:relative}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:6px;top:16px;font:400 24px var(--f-mono);color:var(--gold)}
+.faq details[open] summary::after{content:"–"}
+.faq p{padding:0 0 22px;color:var(--muted);max-width:74ch}
+
+/* sources, institutions */
+.sources{border-top:1px solid var(--line);padding-top:26px;font-size:14px;color:var(--muted)}
+.sources h2{font:500 12px var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.sources ol{margin:0 0 10px;padding-left:20px;display:grid;gap:4px}
+.sources a{overflow-wrap:anywhere}
+.sec:has(>.wrap>.sources){padding-block:0 56px}
+.inst{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.inst a{display:grid;gap:6px;padding:20px;border:1px solid var(--line);border-radius:4px;text-decoration:none;background:var(--surface);align-content:start}
+.inst a:hover{border-color:var(--gold)}
+.inst b{font:500 20px/1.2 var(--f-display)}
+.inst span{font-size:14px;color:var(--muted)}
+.inst i{font:400 12px var(--f-mono);font-style:normal;color:var(--accent);overflow-wrap:anywhere}
+.inst .tag{font:500 10.5px var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+
+/* cta */
+.cta .wrap{display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center;justify-content:space-between;padding-block:56px}
+.cta h2{font-size:clamp(28px,3.6vw,40px);margin-bottom:10px}
+.cta p{color:var(--on-band-muted);max-width:60ch}
+.cta .wrap>div{min-width:0;flex:1 1 420px}
+
+/* contact */
+.contact{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:56px;align-items:start}
+.contact .side{display:grid;gap:18px}
+.contact h1{font-size:clamp(36px,5vw,56px)}
+.where{display:grid;border-top:1px solid var(--line);margin:8px 0 0}
+.where div{display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px;padding:13px 0;border-bottom:1px solid var(--line);font-size:15px}
+.where dt{font:500 11px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding-top:4px}
+.where dd{margin:0}
+#lead{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:28px;display:grid;gap:16px}
+.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#lead label{display:grid;gap:6px;font:500 13px var(--f-body);color:var(--muted)}
+#lead input[type=text],#lead input[type=email],#lead select,#lead textarea{font:400 15px var(--f-body);padding:11px 12px;border-radius:4px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%}
+#lead textarea{min-height:110px;resize:vertical}
+fieldset{border:0;margin:0;padding:0}
+legend{font:500 13px var(--f-body);color:var(--muted);padding:0;margin-bottom:8px}
+.intent{display:flex;flex-wrap:wrap;gap:8px}
+#lead .intent label{display:inline-flex;cursor:pointer}
+.intent input{position:absolute;opacity:0}
+.intent span{padding:8px 14px;border:1px solid var(--line);border-radius:99px;font:500 13px var(--f-body);color:var(--ink)}
+.intent input:checked+span{background:var(--band);color:var(--on-band);border-color:var(--band)}
+.intent input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px}
+.err{color:var(--bad);font-size:13.5px}
+.done{display:grid;gap:12px;border:1px solid var(--ok);border-radius:4px;padding:18px}
+.done p{font-size:14px;color:var(--muted)}
+.done pre{margin:0;white-space:pre-wrap;font:400 13px/1.5 var(--f-mono);background:var(--bg);padding:14px;border-radius:4px;overflow-wrap:anywhere}
+@media (max-width:880px){.contact{grid-template-columns:minmax(0,1fr);gap:32px}.row{grid-template-columns:minmax(0,1fr)}}
+
+/* footer */
+footer .wrap{padding-block:52px 40px;display:grid;gap:36px}
+.fcols{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1fr);gap:36px}
+.fbrand{display:grid;gap:4px;justify-items:start}
+.fbrand img{height:60px;width:auto;margin-bottom:8px}
+.fbrand b{font:600 24px var(--f-display);letter-spacing:.09em}
+.fbrand i{font:500 10px var(--f-mono);font-style:normal;letter-spacing:.14em;text-transform:uppercase;color:var(--band-gold)}
+.fbrand p{color:var(--on-band-muted);font-size:14px;margin-top:10px}
+footer h4{font:500 11px var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--band-gold);margin-bottom:12px}
+.fcols a{display:block;text-decoration:none;color:var(--on-band-muted);font-size:14.5px;padding:4px 0}
+.fcols a:hover{color:var(--on-band)}
+.legal{font-size:12.5px;color:var(--on-band-muted);max-width:100ch;border-top:1px solid var(--band-line);padding-top:22px}
+@media (max-width:760px){.fcols{grid-template-columns:minmax(0,1fr)}}
+
+/* glamour layer */
+em{font-style:italic}
+.hero h1 em,.figs b{background:var(--au);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-home{position:relative;overflow:hidden;isolation:isolate}
+.hero-home .strata{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.hero-home::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,var(--band) 0%,rgba(4,6,15,.82) 38%,rgba(4,6,15,.15) 100%)}
+.hero.hero-home .wrap{display:grid;grid-template-columns:minmax(0,1fr);gap:26px;padding-block:120px 132px;justify-items:start}
+.hero.hero-short .wrap{padding-block:64px 76px}
+.hero-home h1{font-size:clamp(44px,7.4vw,104px);font-weight:400;line-height:.98;letter-spacing:-.025em;max-width:13ch}
+.hero-short h1{font-size:clamp(40px,6vw,80px);max-width:16ch}
+.hero-home .lede{font-size:clamp(17px,1.6vw,21px);max-width:54ch;color:#c9cfc6}
+@media (max-width:700px){.hero.hero-home .wrap{padding-block:72px 84px}.hero-home::after{background:linear-gradient(180deg,rgba(4,6,15,.7),rgba(4,6,15,.86))}}
+.figs{background:var(--band);border-block:1px solid var(--line)}
+.figs .wrap{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}
+.figs .wrap>div{display:grid;gap:6px;padding:38px 28px 36px 0;border-right:1px solid var(--line);align-content:start}
+.figs .wrap>div+div{padding-left:28px}
+.figs .wrap>div:last-child{border-right:0}
+.figs b{font:400 clamp(38px,4.6vw,64px)/1 var(--f-display);letter-spacing:-.02em;font-variant-numeric:tabular-nums;justify-self:start}
+.figs span{font-size:15px;color:var(--ink)}
+.figs i{font:400 11px var(--f-mono);font-style:normal;color:var(--muted)}
+@media (max-width:860px){.figs .wrap{grid-template-columns:repeat(2,minmax(0,1fr))}.figs .wrap>div,.figs .wrap>div+div{padding:26px 16px 26px 0;border-right:0;border-bottom:1px solid var(--line)}}
+.row-head{grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:24px}
+.row-head>div{display:grid;gap:14px;min-width:0}
+@media (max-width:760px){.row-head{grid-template-columns:minmax(0,1fr)}.row-head .btn{justify-self:start}}
+.board{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
+.lst{position:relative;display:grid;gap:12px;align-content:start;min-width:0;padding:26px 26px 22px;background:linear-gradient(180deg,#131b38,var(--surface));border:1px solid var(--line);border-radius:6px;transition:border-color .2s,transform .2s}
+.lst::before{content:"";position:absolute;inset:0 0 auto;height:2px;background:var(--au);border-radius:6px 6px 0 0;opacity:.85}
+.lst:hover{border-color:#6b5a30;transform:translateY(-3px)}
+@media (prefers-reduced-motion:reduce){.lst{transition:none}.lst:hover{transform:none}}
+.lst-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ref{font:500 12px var(--f-mono);letter-spacing:.12em;color:var(--gold)}
+.lst-sec{font:500 11px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.lst h3{font-size:25px;line-height:1.14;font-weight:500}
+.lst-d{font-size:14.5px;color:var(--muted)}
+.lst dl{margin:4px 0 0;display:grid;border-top:1px solid var(--line)}
+.lst dl div{display:grid;grid-template-columns:84px minmax(0,1fr);gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.lst dt{font:500 10.5px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding-top:3px}
+.lst dd{margin:0}
+.lst-cta{font:600 14.5px var(--f-body);color:var(--accent);text-decoration:none;margin-top:4px;justify-self:start}
+.lst-cta span{display:inline-block;transition:transform .15s}
+.lst-cta:hover span{transform:translateX(4px)}
+.bar{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin-bottom:26px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:500 13.5px var(--f-body);padding:9px 16px;border-radius:99px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+.chip i{font:400 11px var(--f-mono);font-style:normal;color:var(--muted);margin-left:4px}
+.chip[aria-pressed="true"]{background:var(--au);color:#1c1a10;border-color:transparent}
+.chip[aria-pressed="true"] i{color:#4a3d18}
+.bar input{flex:1 1 220px;max-width:320px;font:400 15px var(--f-body);padding:11px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.empty{padding:28px;border:1px dashed var(--line);border-radius:6px;color:var(--muted)}
+.intent input:checked+span{background:var(--au);color:#1c1a10;border-color:transparent}
+.diagram .bx .core{fill:var(--band-2);stroke:var(--gold)}
+
+.two .ledger .fig{white-space:normal;font-size:18px}
+.two .ledger .srcc{white-space:normal}
+.two .ledger thead{display:none}
+
+.bmark{height:34px;width:auto;flex:none;display:block}
+.brand b{font-size:20px}
+.fbrand img{height:96px}
+.map .land{fill:url(#none);fill:var(--mp-land)}
+.ledger .fig{white-space:normal;width:32%}
+.ledger .srcc{white-space:normal;width:22%}
+.map{max-width:560px}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://agentejhavix-devaa.github.io/sahel-capital/#org", "name": "SAHEL CAPITAL", "alternateName": "Bridge to Africa", "url": "https://agentejhavix-devaa.github.io/sahel-capital/", "logo": "https://agentejhavix-devaa.github.io/sahel-capital/img/mark.png", "description": "Oportunidades de inversión en Mauritania por sectores: minería, fotovoltaica y gas, pesca, construcción y agro. Sede en España, equipo local y contrato firmado.", "areaServed": [{"@type": "Country", "name": "Mauritania"}, {"@type": "Country", "name": "España"}], "knowsLanguage": ["es", "fr", "ar"]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "SAHEL CAPITAL", "item": "https://agentejhavix-devaa.github.io/sahel-capital/"}, {"@type": "ListItem", "position": 2, "name": "SAHEL CAPITAL Energía", "item": "https://agentejhavix-devaa.github.io/sahel-capital/energia.html"}]}, {"@type": "Service", "name": "SAHEL CAPITAL Energía", "description": "Proyectos solares con y sin baterías, eólica, gas y electrificación rural en Mauritania bajo APP. Para promotores, EPC y financiadores.", "url": "https://agentejhavix-devaa.github.io/sahel-capital/energia.html", "provider": {"@id": "https://agentejhavix-devaa.github.io/sahel-capital/#org"}, "areaServed": {"@type": "Country", "name": "Mauritania"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Se puede invertir en energía solar en Mauritania?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. El Gobierno quiere que los productores independientes lideren la nueva generación y en 2025 firmó su primera asociación público-privada eléctrica: una planta híbrida de 220 MW con 370 MWh de almacenamiento y contrato de 15 años con SOMELEC."}}, {"@type": "Question", "name": "¿Qué diferencia hay entre una planta con baterías y sin baterías?", "acceptedAnswer": {"@type": "Answer", "text": "Sin baterías, la planta entrega energía solo cuando hay sol y la red absorbe la variación. Con baterías, parte de la producción se desplaza a la tarde y la noche y se ayuda a estabilizar la red, a cambio de más inversión. En redes pequeñas como la mauritana, el almacenamiento suele ser condición del comprador."}}, {"@type": "Question", "name": "¿Quién compra la electricidad?", "acceptedAnswer": {"@type": "Answer", "text": "En proyectos conectados a red, la compañía pública SOMELEC mediante un contrato de compra de energía. En minicentrales y electrificación rural, el esquema es de concesión."}}, {"@type": "Question", "name": "¿Qué pide SAHEL CAPITAL a un promotor o EPC?", "acceptedAnswer": {"@type": "Answer", "text": "Referencias de megavatios construidos, capacidad financiera acreditada y disposición a firmar confidencialidad y contrato de representación antes de solicitar reuniones institucionales."}}]}]}</script></head><body data-page="energia"><header class="top"><div class="wrap"><a class="brand" href="index.html" aria-label="SAHEL CAPITAL, inicio"><svg class="bmark" viewBox="0 0 64 36" aria-hidden="true"><path d="M3 30 Q32 -6 61 30" fill="none" stroke="url(#bm)" stroke-width="2.4" stroke-linecap="round"/><g stroke="url(#bm)" stroke-width="1.6"><path d="M18 30V17M25 30V12.5M32 30V11M39 30V12.5M46 30V17"/></g><path d="M1 31.5H63" stroke="url(#bm)" stroke-width="2.4" stroke-linecap="round"/><defs><linearGradient id="bm" x1="0" x2="1"><stop offset="0" stop-color="#b48f3f"/><stop offset=".5" stop-color="#f3dca0"/><stop offset="1" stop-color="#c9a556"/></linearGradient></defs></svg><span><b>SAHEL CAPITAL</b><i>Bridge to Africa</i></span></a><nav class="main" aria-label="Principal"><a href="oportunidades.html" data-nav="oportunidades">Oportunidades</a><a href="mineria.html" data-nav="mineria">Minería</a><a href="energia.html" data-nav="energia">Energía y gas</a><a href="pesca.html" data-nav="pesca">Pesca</a><a href="construccion.html" data-nav="construccion">Construcción</a><a href="agro.html" data-nav="agro">Agro</a><a href="mauritania.html" data-nav="mauritania">Mauritania</a><a href="garantias.html" data-nav="garantias">Garantías</a></nav><a class="btn btn-gold sm" href="contacto.html">Contacto</a></div></header><main><section class="band hero"><div class="wrap"><div class="hero-copy"><nav class="crumbs" aria-label="Ruta"><a href="index.html">SAHEL CAPITAL</a> / <span>Energía</span></nav><p class="eyebrow">SAHEL CAPITAL Energía</p><h1>Fotovoltaica, eólica y gas en Mauritania.</h1><p class="lede">Sol, viento y gas propio en un país que ha abierto la generación a los productores independientes. Acompañamos a promotores, EPC y financiadores desde la identificación del proyecto hasta la mesa de la autoridad competente.</p><div class="hero-cta"><a class="btn btn-gold" href="contacto.html">Presentar proyecto</a><a class="btn btn-ghost" href="garantias.html">Cómo protegemos la operación</a></div></div><div class="hero-art"><figure class="mapfig"><svg class="map" viewBox="0 0 540 450" role="img" aria-label="Mapa esquemático de Mauritania con los principales polos económicos"><line class="grat" x1="0" y1="392.7" x2="540" y2="392.7"/><text class="deg" x="536" y="388.7" text-anchor="end">16°N</text><line class="grat" x1="0" y1="260.7" x2="540" y2="260.7"/><text class="deg" x="536" y="256.7" text-anchor="end">20°N</text><line class="grat" x1="0" y1="128.7" x2="540" y2="128.7"/><text class="deg" x="536" y="124.69999999999999" text-anchor="end">24°N</text><line class="grat" x1="171.9" y1="0" x2="171.9" y2="450"/><text class="deg" x="175.9" y="12">16°O</text><line class="grat" x1="294.6" y1="0" x2="294.6" y2="450"/><text class="deg" x="298.6" y="12">12°O</text><line class="grat" x1="417.4" y1="0" x2="417.4" y2="450"/><text class="deg" x="421.4" y="12">8°O</text><polygon class="land" points="286.0,432.0 285.3,431.7 282.1,429.4 280.4,426.5 277.9,424.4 274.4,423.0 272.1,421.3 271.0,419.5 269.6,418.3 268.3,417.7 268.2,417.1 268.5,416.1 268.2,414.5 266.1,410.8 264.1,409.0 262.5,409.3 261.4,408.9 260.9,408.1 260.7,406.8 259.6,405.8 257.6,405.3 256.0,402.6 254.8,397.5 253.3,393.6 251.4,390.8 250.0,389.7 249.0,389.5 248.7,389.0 248.4,388.2 246.9,387.9 244.8,388.8 242.9,388.5 242.0,387.2 240.7,387.0 239.0,388.1 237.3,387.8 235.3,386.0 234.2,384.2 234.0,382.5 230.6,378.9 224.0,373.6 216.8,371.1 209.1,371.4 204.8,371.1 203.8,370.3 202.8,370.4 201.9,371.3 200.9,371.6 199.8,371.0 199.1,371.4 198.8,372.8 196.0,373.5 190.9,373.5 186.7,374.3 183.5,376.0 178.9,376.7 173.1,376.4 169.7,375.9 168.4,374.9 166.6,374.7 164.6,375.2 162.6,377.8 160.9,382.6 159.5,385.3 158.4,386.0 157.2,389.5 156.5,395.4 155.4,398.0 155.4,383.3 157.0,377.7 157.6,372.8 161.2,362.1 165.4,353.4 169.4,341.7 171.0,330.4 170.4,319.3 169.2,309.5 167.2,303.0 165.3,293.6 162.5,288.6 157.3,284.3 156.1,281.8 157.3,280.8 160.5,280.1 162.5,276.8 158.3,278.1 163.1,267.7 164.7,260.7 164.4,256.0 165.4,253.1 161.6,247.0 158.7,239.2 157.2,237.9 155.6,237.3 155.5,239.1 154.6,240.8 152.7,239.7 149.5,234.1 145.0,224.9 143.4,223.9 142.0,225.2 141.2,226.4 139.7,234.1 139.3,231.0 139.9,227.4 141.0,223.0 142.2,216.8 146.2,216.8 153.2,216.8 160.3,216.8 167.3,216.8 174.4,216.8 181.3,216.8 188.4,216.8 195.5,216.8 202.5,216.8 209.5,216.7 216.6,216.7 223.5,216.7 230.6,216.7 237.7,216.7 244.8,216.7 251.7,216.7 258.8,216.7 263.4,216.7 263.1,212.3 262.9,208.8 262.7,204.1 262.3,199.5 262.1,194.8 261.8,190.5 261.6,186.1 261.2,182.1 261.0,178.3 260.7,176.2 259.1,172.0 258.8,169.9 259.2,167.6 260.3,165.5 263.0,161.7 267.1,158.8 271.9,155.4 275.6,152.7 277.5,152.1 283.2,151.2 287.6,149.2 292.0,147.3 293.9,146.3 294.2,142.7 294.2,138.7 294.2,134.2 294.2,129.7 294.2,125.2 294.2,120.7 294.2,116.2 294.2,111.7 294.2,107.2 294.2,102.7 294.2,98.2 294.2,93.7 294.2,89.3 294.2,84.7 294.2,80.3 294.2,75.8 294.2,71.3 294.2,66.8 294.2,62.8 298.7,62.8 304.4,62.8 310.2,62.8 315.8,62.8 321.6,62.8 327.3,62.8 333.0,62.8 338.8,62.8 344.4,62.8 350.2,62.8 355.9,62.8 361.7,62.8 367.3,62.8 373.0,62.8 378.8,62.8 384.5,62.8 390.2,62.8 396.5,62.8 396.5,59.1 396.5,53.7 396.5,46.3 396.5,38.8 396.5,32.3 396.5,25.8 396.4,20.3 402.2,23.9 408.0,27.6 413.7,31.2 419.4,34.9 425.3,38.5 431.0,42.2 436.8,45.8 442.5,49.4 448.4,53.1 454.2,56.8 459.9,60.4 465.6,64.1 471.5,67.7 477.2,71.4 483.0,75.0 488.7,78.7 493.6,81.7 501.0,86.6 508.0,91.2 514.9,95.8 504.2,95.8 489.8,95.8 480.0,95.8 470.0,95.8 460.6,95.9 461.3,103.4 462.2,111.6 463.1,119.8 464.0,128.0 464.9,136.2 465.8,144.4 466.6,152.6 467.5,160.8 468.4,169.1 469.2,177.2 470.0,185.5 470.9,193.6 471.8,201.9 472.7,210.1 473.6,218.3 474.5,226.4 475.4,234.7 476.2,242.9 477.1,251.1 478.0,259.3 478.8,267.5 479.7,275.7 480.5,283.9 481.4,292.1 482.3,300.4 483.2,308.5 484.1,316.7 485.0,325.0 485.9,333.1 486.7,341.4 487.6,349.6 488.4,357.8 489.3,366.0 490.1,373.9 493.8,378.1 498.4,383.4 497.1,390.8 495.5,399.6 493.7,409.3 487.3,409.3 481.0,409.3 474.7,409.3 468.5,409.3 462.2,409.3 455.9,409.3 449.7,409.3 443.4,409.3 437.1,409.3 430.9,409.3 424.7,409.3 418.3,409.3 412.2,409.3 405.9,409.3 399.6,409.3 393.4,409.3 387.1,409.3 381.2,409.3 377.7,409.1 376.4,408.3 375.9,403.4 374.8,403.7 373.6,405.1 372.9,406.8 373.2,408.8 372.9,410.6 369.0,411.3 363.6,412.5 357.8,413.4 352.0,413.1 350.1,412.6 348.0,412.0 343.3,411.3 340.9,411.1 338.0,411.3 334.6,411.7 333.5,412.6 331.0,416.4 328.5,420.7 326.8,420.7 325.1,418.3 320.1,413.9 314.1,408.0 311.4,405.1 309.8,404.7 307.0,406.8 304.5,408.8 302.0,411.7 300.8,414.4 299.9,417.6 299.5,421.4 298.6,425.9 296.5,429.4 293.9,432.1 292.2,433.4 291.4,434.1 286.0,432.0"/><path class="rail" d="M280.2 170.6 L265.5 212.8 L217.9 219.4 L165.7 221.1 L141.2 229.3"/><text class="sea" x="21.5" y="108.9">OCÉANO</text><text class="sea" x="21.5" y="121.9">ATLÁNTICO</text><text class="sea" x="371.3" y="227.7">S A H A R A</text><text class="deg" x="205.6" y="396.0">río Senegal</text><g class="site city"><circle cx="139.9" cy="230.0" r="3.5"/><text x="128.9" y="234.0" text-anchor="end"><tspan class="n">Nouadhibou</tspan> <tspan class="s">puerto</tspan></text></g><g class="site res"><rect x="156.6" y="213.3" width="9" height="9" transform="rotate(45 161.1 217.8)"/><text x="172.1" y="221.8" text-anchor="start"><tspan class="n">Boulenouar</tspan> <tspan class="s">eólica 100 MW</tspan></text></g><g class="site res dim"><rect x="182.7" y="238.0" width="9" height="9" transform="rotate(45 187.2 242.5)"/><text x="198.2" y="246.5" text-anchor="start"><tspan class="n">Tasiast</tspan></text></g><g class="site res dim"><rect x="217.1" y="264.4" width="9" height="9" transform="rotate(45 221.6 268.9)"/><text x="232.6" y="272.9" text-anchor="start"><tspan class="n">Akjoujt</tspan></text></g><g class="site res dim"><rect x="275.7" y="166.1" width="9" height="9" transform="rotate(45 280.2 170.6)"/><text x="291.2" y="174.6" text-anchor="start"><tspan class="n">Zouérat</tspan></text></g><g class="site city dim"><circle cx="167.3" cy="306.2" r="3.5"/><text x="156.3" y="310.2" text-anchor="end"><tspan class="n">Tanit</tspan></text></g><g class="site cap"><circle cx="172.5" cy="324.1" r="5"/><text x="183.5" y="328.1" text-anchor="start"><tspan class="n">Nouakchott</tspan> <tspan class="s">capital</tspan></text></g><g class="site res dim"><rect x="220.5" y="368.4" width="9" height="9" transform="rotate(45 225.0 372.9)"/><text x="236.0" y="376.9" text-anchor="start"><tspan class="n">Boghé</tspan></text></g><g class="site res"><rect x="133.6" y="384.9" width="9" height="9" transform="rotate(45 138.1 389.4)"/><text x="127.1" y="393.4" text-anchor="end"><tspan class="n">GTA</tspan> <tspan class="s">gas offshore</tspan></text></g><g class="site city dim"><circle cx="440.1" cy="372.2" r="3.5"/><text x="451.1" y="376.2" text-anchor="start"><tspan class="n">Néma</tspan></text></g></svg><p class="maplegend"><span><i class="lg-city"></i>Ciudad o puerto</span><span><i class="lg-res"></i>Polo de recursos</span><span><i class="lg-rail"></i>Ferrocarril minero Zouérat–Nouadhibou</span><span>Mapa esquemático, no apto para delimitación.</span></p></figure></div></div></section><section class="answer"><div class="wrap"><p><b>En resumen.</b> SAHEL CAPITAL Energía identifica proyectos de generación en Mauritania (fotovoltaica con o sin almacenamiento, eólica, gas y electrificación rural), reúne a promotor, constructor y financiador, y gestiona los contactos institucionales bajo un contrato de representación.</p></div></section><section class="sec "><div class="wrap"><div class="sec-head"><p class="eyebrow">El contexto</p><h2>El sector se ha abierto al capital privado.</h2></div><div class="tbl"><table class="ledger"><thead><tr><th>Dato</th><th>Qué significa</th><th>Fuente</th></tr></thead><tbody><tr><td class="fig">220 MW + 370 MWh</td><td>Primera APP eléctrica del país: 160 MW solares y 60 MW eólicos con almacenamiento, 300 M USD y contrato de 15 años con SOMELEC.</td><td class="srcc">ITA, febrero 2026</td></tr><tr><td class="fig">100 MW</td><td>Parque eólico de Boulenouar, ya en servicio.</td><td class="srcc">ITA, febrero 2026</td></tr><tr><td class="fig">Baterías en Nouakchott</td><td>Primer gran proyecto de almacenamiento para estabilizar la red, con apoyo del Banco Mundial.</td><td class="srcc">ITA, febrero 2026</td></tr><tr><td class="fig">Gas de GTA</td><td>El yacimiento compartido con Senegal se plantea como combustible de base más barato y fiable.</td><td class="srcc">ITA, febrero 2026</td></tr><tr><td class="fig">Hidrógeno verde</td><td>Código aprobado en octubre de 2024.</td><td class="srcc">ITA, febrero 2026</td></tr></tbody></table></div></div></section><section class="sec alt"><div class="wrap"><div class="sec-head"><p class="eyebrow">Qué hacemos</p><h2>Seis tipos de proyecto.</h2><p class="lede">Proyectos identificados por nuestro equipo local. Sus condiciones y su estado deben confirmarse ante la autoridad competente.</p></div><div class="two "><div><ul class="lines"><li><b>Solar con baterías</b><span>Plantas de 50 MWp con almacenamiento: IPP, EPC y financiación integrados.</span></li><li><b>Solar sin baterías</b><span>Plantas de 50 MWp: inversión, construcción y suministro de equipos.</span></li><li><b>Minicentrales</b><span>Inversión, construcción y explotación bajo APP.</span></li><li><b>Electrificación rural</b><span>Programas RIMDIR y PERSEM: concesiones, equipos y servicios.</span></li><li><b>Gas</b><span>Central eléctrica de gas y sistemas asociados: desarrollo y movilización de inversores.</span></li><li><b>Eólica</b><span>Parque de 100 MW: inversión, desarrollo y suministro.</span></li></ul></div><div><figure class="diagram"><svg viewBox="0 0 560 300" role="img" aria-label="Estructura de un proyecto de productor independiente de energía"><g class="bx"><rect x="200" y="112" width="160" height="76" rx="6" class="core"/><rect x="20" y="20" width="150" height="56" rx="6"/><rect x="390" y="20" width="150" height="56" rx="6"/><rect x="20" y="224" width="150" height="56" rx="6"/><rect x="390" y="224" width="150" height="56" rx="6"/></g><g class="ln"><path d="M170 60 L210 112"/><path d="M390 60 L350 112"/><path d="M170 240 L210 188"/><path d="M390 240 L350 188"/></g><g class="tx"><text x="280" y="146" text-anchor="middle" class="t1">Sociedad de proyecto</text><text x="280" y="166" text-anchor="middle">IPP en Mauritania</text><text x="95" y="45" text-anchor="middle" class="t1">Estado · SOMELEC</text><text x="95" y="63" text-anchor="middle">APP y compra de energía</text><text x="465" y="45" text-anchor="middle" class="t1">Financiadores</text><text x="465" y="63" text-anchor="middle">Deuda y capital</text><text x="95" y="249" text-anchor="middle" class="t1">EPC</text><text x="95" y="267" text-anchor="middle">Ingeniería y obra</text><text x="465" y="249" text-anchor="middle" class="t1">O&amp;M</text><text x="465" y="267" text-anchor="middle">Operación</text></g></svg><figcaption>Estructura habitual de un proyecto de productor independiente. SAHEL CAPITAL acompaña al promotor ante las autoridades y busca socios para cada casilla.</figcaption></figure></div></div></div></section><section class="sec "><div class="wrap"><div class="sec-head"><p class="eyebrow">Normas de referencia</p><h2>Lo que hace financiable un proyecto.</h2></div><div class="tbl"><table class="spec"><tbody><tr><th scope="row">Marco</th><td>Asociación público-privada y contrato de compra de energía con SOMELEC.</td></tr><tr><th scope="row">Equipos</th><td>Módulos según IEC 61215 e IEC 61730. Almacenamiento según IEC 62933.</td></tr><tr><th scope="row">Ambiental y social</th><td>Normas de Desempeño de la IFC y estudio de impacto ambiental.</td></tr><tr><th scope="row">Del promotor</th><td>Referencias de MW construidos, estados financieros y carta de intenciones.</td></tr><tr><th scope="row">De SAHEL CAPITAL</th><td>Confidencialidad, contrato de representación y agenda institucional documentada.</td></tr></tbody></table></div></div></section><section class="sec alt"><div class="wrap"><div class="sec-head"><p class="eyebrow">Oportunidades</p><h2>Proyectos orientativos.</h2></div><div class="board"><article class="lst" data-sec="energia" data-text="sc-ene-01 energia mauritania central solar de 50 mwp con baterías productor independiente con ingeniería, construcción y financiación integradas, en un sistema eléctrico que acaba de firmar su primera app de 220 mw. promotor ipp, epc y financiador asociación público-privada ori"><div class="lst-top"><span class="ref">SC-ENE-01</span><span class="status s-ori">Orientativa</span></div><p class="lst-sec">Energía y gas · Mauritania</p><h3>Central solar de 50 MWp con baterías</h3><p class="lst-d">Productor independiente con ingeniería, construcción y financiación integradas, en un sistema eléctrico que acaba de firmar su primera APP de 220 MW.</p><dl><div><dt>Busca</dt><dd>Promotor IPP, EPC y financiador</dd></div><div><dt>Contrato</dt><dd>Asociación público-privada</dd></div></dl><a class="lst-cta" href="contacto.html">Solicitar dossier <span aria-hidden="true">→</span></a></article><article class="lst" data-sec="energia" data-text="sc-ene-03 energia mauritania central eléctrica de gas desarrollo del proyecto y movilización de inversores, con el gas del yacimiento gta como combustible de base. desarrollador e inversores desarrollo conjunto ori"><div class="lst-top"><span class="ref">SC-ENE-03</span><span class="status s-ori">Orientativa</span></div><p class="lst-sec">Energía y gas · Mauritania</p><h3>Central eléctrica de gas</h3><p class="lst-d">Desarrollo del proyecto y movilización de inversores, con el gas del yacimiento GTA como combustible de base.</p><dl><div><dt>Busca</dt><dd>Desarrollador e inversores</dd></div><div><dt>Contrato</dt><dd>Desarrollo conjunto</dd></div></dl><a class="lst-cta" href="contacto.html">Solicitar dossier <span aria-hidden="true">→</span></a></article><article class="lst" data-sec="energia" data-text="sc-ene-04 energia mauritania parque eólico de 100 mw inversión, desarrollo y suministro de equipos en la costa atlántica, donde ya opera un parque de 100 mw. inversor y tecnólogo asociación público-privada ori"><div class="lst-top"><span class="ref">SC-ENE-04</span><span class="status s-ori">Orientativa</span></div><p class="lst-sec">Energía y gas · Mauritania</p><h3>Parque eólico de 100 MW</h3><p class="lst-d">Inversión, desarrollo y suministro de equipos en la costa atlántica, donde ya opera un parque de 100 MW.</p><dl><div><dt>Busca</dt><dd>Inversor y tecnólogo</dd></div><div><dt>Contrato</dt><dd>Asociación público-privada</dd></div></dl><a class="lst-cta" href="contacto.html">Solicitar dossier <span aria-hidden="true">→</span></a></article><article class="lst" data-sec="energia" data-text="sc-ene-02 energia mauritania central solar de 50 mwp inversión, construcción y suministro de equipos. inversor y epc asociación público-privada ori"><div class="lst-top"><span class="ref">SC-ENE-02</span><span class="status s-ori">Orientativa</span></div><p class="lst-sec">Energía y gas · Mauritania</p><h3>Central solar de 50 MWp</h3><p class="lst-d">Inversión, construcción y suministro de equipos.</p><dl><div><dt>Busca</dt><dd>Inversor y EPC</dd></div><div><dt>Contrato</dt><dd>Asociación público-privada</dd></div></dl><a class="lst-cta" href="contacto.html">Solicitar dossier <span aria-hidden="true">→</span></a></article><article class="lst" data-sec="energia" data-text="sc-ene-05 energia mauritania minicentrales solares inversión, construcción y explotación de plantas pequeñas para núcleos aislados. promotor y operador asociación público-privada ori"><div class="lst-top"><span class="ref">SC-ENE-05</span><span class="status s-ori">Orientativa</span></div><p class="lst-sec">Energía y gas · Mauritania</p><h3>Minicentrales solares</h3><p class="lst-d">Inversión, construcción y explotación de plantas pequeñas para núcleos aislados.</p><dl><div><dt>Busca</dt><dd>Promotor y operador</dd></div><div><dt>Contrato</dt><dd>Asociación público-privada</dd></div></dl><a class="lst-cta" href="contacto.html">Solicitar dossier <span aria-hidden="true">→</span></a></article><article class="lst" data-sec="energia" data-text="sc-ene-06 energia mauritania · rural electrificación rural: rimdir y persem concesiones, suministro de equipos y prestación de servicios. concesionario y proveedores concesión ori"><div class="lst-top"><span class="ref">SC-ENE-06</span><span class="status s-ori">Orientativa</span></div><p class="lst-sec">Energía y gas · Mauritania · rural</p><h3>Electrificación rural: RIMDIR y PERSEM</h3><p class="lst-d">Concesiones, suministro de equipos y prestación de servicios.</p><dl><div><dt>Busca</dt><dd>Concesionario y proveedores</dd></div><div><dt>Contrato</dt><dd>Concesión</dd></div></dl><a class="lst-cta" href="contacto.html">Solicitar dossier <span aria-hidden="true">→</span></a></article></div><p class="legend"><span class="status s-doc">Documentación recibida, pendiente de verificar</span><span class="status s-ori">Orientativa, por confirmar ante la autoridad competente</span><span class="status s-open">Línea abierta: buscamos contrapartes</span></p><p class="more"><a href="oportunidades.html">Ver todas las oportunidades →</a></p></div></section><section class="sec "><div class="wrap"><div class="sec-head"><p class="eyebrow">Preguntas frecuentes</p><h2>Energía en Mauritania.</h2></div><div class="faq"><details><summary>¿Se puede invertir en energía solar en Mauritania?</summary><p>Sí. El Gobierno quiere que los productores independientes lideren la nueva generación y en 2025 firmó su primera asociación público-privada eléctrica: una planta híbrida de 220 MW con 370 MWh de almacenamiento y contrato de 15 años con SOMELEC.</p></details><details><summary>¿Qué diferencia hay entre una planta con baterías y sin baterías?</summary><p>Sin baterías, la planta entrega energía solo cuando hay sol y la red absorbe la variación. Con baterías, parte de la producción se desplaza a la tarde y la noche y se ayuda a estabilizar la red, a cambio de más inversión. En redes pequeñas como la mauritana, el almacenamiento suele ser condición del comprador.</p></details><details><summary>¿Quién compra la electricidad?</summary><p>En proyectos conectados a red, la compañía pública SOMELEC mediante un contrato de compra de energía. En minicentrales y electrificación rural, el esquema es de concesión.</p></details><details><summary>¿Qué pide SAHEL CAPITAL a un promotor o EPC?</summary><p>Referencias de megavatios construidos, capacidad financiera acreditada y disposición a firmar confidencialidad y contrato de representación antes de solicitar reuniones institucionales.</p></details></div></div></section><section class="sec"><div class="wrap"><div class="sources"><h2>Fuentes</h2><ol><li><a href="https://trade.gov/country-commercial-guides/mauritania-energy" target="_blank" rel="noopener">ITA, Mauritania Country Commercial Guide: Energy (febrero 2026)</a></li><li><a href="https://apim.gov.mr/" target="_blank" rel="noopener">APIM, Investment Guide: Renewable Energies in Mauritania</a></li></ol><p>Datos revisados en noviembre de 2026. Las cifras oficiales cambian: confírmelas en la fuente antes de decidir.</p></div></div></section><section class="band cta"><div class="wrap"><div><h2>¿Promotor, EPC o financiador?</h2><p>Cuéntenos su papel, sus referencias y el tamaño de proyecto que busca.</p></div><a class="btn btn-gold" href="contacto.html">Presentar proyecto</a></div></section></main><footer class="band"><div class="wrap"><div class="fcols"><div class="fbrand"><img src="img/mark-light.png" alt=""><b>SAHEL CAPITAL</b><i>Bridge to Africa</i><p>Sede en España · Equipo en Mauritania</p></div><div><h4>Divisiones</h4><a href="mineria.html">Minería</a><a href="energia.html">Energía y gas</a><a href="pesca.html">Pesca</a><a href="construccion.html">Construcción</a><a href="agro.html">Agro</a></div><div><h4>Grupo</h4><a href="oportunidades.html">Oportunidades</a><a href="mauritania.html">Invertir en Mauritania</a><a href="garantias.html">Garantías y cumplimiento</a><a href="contacto.html">Contacto</a></div></div><p class="legal">SAHEL CAPITAL facilita contactos comerciales entre empresas. No actúa como banco, agente de inversión, asesor legal ni garante de operaciones, y no representa al Gobierno de Mauritania ni a ningún organismo público. Fotografías aportadas por el equipo. Mapa esquemático. Contenido actualizado en noviembre de 2026.</p></div></footer><script>(function(){
+  var $=function(s){return document.querySelector(s)};
+  var pages=document.querySelectorAll('.page[data-page]');
+  function mark(slug){document.querySelectorAll('[data-nav]').forEach(function(a){if(a.dataset.nav===slug)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')})}
+  if(pages.length){
+    var show=function(){
+      var slug=(location.hash||'#inicio').slice(1),found=false;
+      pages.forEach(function(p){if(p.dataset.page===slug)found=true});
+      if(!found)slug='inicio';
+      pages.forEach(function(p){p.hidden=p.dataset.page!==slug});
+      mark(slug);window.scrollTo(0,0);
+    };
+    window.addEventListener('hashchange',show);show();
+  }else{mark(document.body.dataset.page)}
+  var bar=$('#bar');
+  if(bar){
+    var cur='all',q=$('#q'),cards=document.querySelectorAll('#board .lst');
+    var norm=function(t){return t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')};
+    var run=function(){var n=0,t=norm(q.value.trim());cards.forEach(function(c){var ok=(cur==='all'||c.dataset.sec===cur)&&(!t||norm(c.dataset.text).indexOf(t)>-1);c.hidden=!ok;if(ok)n++});$('#empty').hidden=n>0;
+      bar.querySelectorAll('.chip').forEach(function(c){c.setAttribute('aria-pressed',String(c.dataset.f===cur))})};
+    bar.addEventListener('click',function(e){var c=e.target.closest('.chip');if(c){cur=c.dataset.f;run()}});
+    q.addEventListener('input',run);
+  }
+  var f=$('#lead');if(!f)return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=$('#f-name').value.trim(),mail=$('#f-mail').value.trim(),err=$('#f-err');
+    if(!name||!/^\S+@\S+\.\S+$/.test(mail)){err.textContent=!name?'Escriba su nombre para que sepamos a quién responder.':'Revise el correo electrónico: lo necesitamos para contestarle.';err.hidden=false;$('#f-done').hidden=true;return}
+    err.hidden=true;
+    $('#f-out').textContent='Solicitud para SAHEL CAPITAL\n'+document.querySelector('input[name=intent]:checked').value+'\nDivisión: '+$('#f-sector').value+'\nNombre: '+name+'\nEmpresa: '+($('#f-co').value.trim()||'—')+'\nPaís: '+($('#f-country').value.trim()||'—')+'\nCorreo: '+mail+'\n\n'+$('#f-msg').value.trim();
+    $('#f-done').hidden=false;
+  });
+  $('#f-copy').addEventListener('click',function(){
+    var b=$('#f-copy'),t=$('#f-out').textContent;
+    navigator.clipboard.writeText(t).then(function(){b.textContent='Copiado'},function(){var r=document.createRange();r.selectNodeContents($('#f-out'));var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Texto seleccionado: cópielo'});
+  });
+})();
+</script></body></html>
